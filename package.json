@@ -1,0 +1,24 @@
+{
+  "name": "test-vibe",
+  "version": "1.0.0",
+  "description": "Obsidian plugin for listing all activities in a sidebar panel",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs",
+    "dev": "node esbuild.config.mjs production",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["obsidian", "plugin", "activities", "sidebar"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "5.29.0",
+    "@typescript-eslint/parser": "5.29.0",
+    "builtin-modules": "3.3.0",
+    "esbuild": "0.17.3",
+    "obsidian": "latest",
+    "tslib": "2.4.0",
+    "typescript": "4.7.4"
+  }
+}

@@ -1,0 +1,48 @@
+/* Activities Panel Styles */
+
+.activities-list {
+    padding: 10px 0;
+}
+
+.activity-item {
+    margin-bottom: 8px;
+    padding: 0;
+}
+
+.activity-link {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: var(--text-normal);
+    border-radius: var(--radius-s);
+    transition: background-color 0.15s ease;
+    cursor: pointer;
+    font-size: var(--font-text-size);
+    line-height: 1.4;
+}
+
+.activity-link:hover {
+    background-color: var(--background-modifier-hover);
+    color: var(--text-normal);
+    text-decoration: none;
+}
+
+.activity-link:active {
+    background-color: var(--background-modifier-active-hover);
+}
+
+.activities-empty-state {
+    padding: 20px 12px;
+    text-align: center;
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+.activities-plugin-ribbon-icon {
+    margin: 0;
+}
+
+/* View header styling */
+.view-header-title {
+    font-weight: var(--font-semibold);
+}
