@@ -1,0 +1,11 @@
+{
+	"id": "test-vibe-activities",
+	"name": "Test Vibe Activities",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Sidebar panel listing all activities from markdown files",
+	"author": "Test Vibe",
+	"authorUrl": "",
+	"fundingUrl": "",
+	"isDesktopOnly": false
+}
